@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faruk portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/290cdb0382.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="log.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="profile">
+                <div class="prf"> <img src="bg-modified.png" alt="profile" class="prfi" ></div>
+                <div class="header-text">
+                  <P class="ttle1">Hi,I am<br>Md. Umar Faruk</p>
+                  <p class="ttle1">Student,Computer Science and Engineering,KUET</p>
+                   <P>And I am also a <span id="typed-name"></span></P>
+                 </div>
+               </div>
+        </div>
+    </div>
+    <!-- ...............about........ -->
+    <div id="About">
+       <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                 <img src="about (1).jpeg" alt="about">
+            </div>
+            <div class="about-col-2">
+               <h1 class="subtitle">About Me</h1>
+               <p>I am currently a 3rd year student in Computer Science and Engineering,KUET<br>
+                 My College was Notre Dame College,Dhaka and school was Nazirpur High School,Natore.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experiencs</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>UI/UX</span><br>Designig web/app interface</li>
+                    <li><span>Android App</span><br>Designig web/app interface</li>
+                    <li><span>Web Development</span><br>Designig web/app interface</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                      <li><span>3-1</span><br>Devoloping a website for railway management</li>
+                      <li><span>2-2</span><br>Library management</li>
+                      <li><span>2-1</span><br>Citizen-Search-Engine-Discovering-Voters-and-Non-Voters</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                      <li><span>2020-current</span><br>An Undergraduate student in computer Science and Engineering,KUET,Khulna</li>
+                      <li><span>2020</span><br>H.S.C from Notre Dame College,Dhaka</li>
+                      <li><span>2018</span><br>S.S.C from Nazirpur High School,Natore</li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+       </div>
+    </div>
+<!-- .......serivices...... -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+    </div>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>iakdhas asdjaskfn asfnaskfnk askfnasknfkans klnadkl klnadknl klnskldn lknddf</p>
+            <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>iakdhas asdjaskfn asfnaskfnk askfnasknfkans klnadkl klnadknl klnskldn lknddf</p>
+            <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>iakdhas asdjaskfn asfnaskfnk askfnasknfkans klnadkl klnadknl klnskldn lknddf</p>
+            <a href="#">learn more</a>
+        </div>
+    </div>
+ </div>
+ <!-- ...............portfolio...................... -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image1.jpg" alt="1">
+                <div class="layer">
+                    <h3>Library App</h3>
+                    <p>blah blah blah vlaase sdg s s gsg sd sd gsd gsg sg sd fsws  dsdg</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image2.jpg" alt="1" >
+                <div class="layer">
+                    <h3>Citizen-Search-Engine-Discovering-Voters-and-Non-Voters</h3>
+                    <p>blah blah blah vlaase sdg s s gsg sd sd gsd gsg sg sd fsws  dsdg</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="fimage3-1.jpg" alt="1" >
+                <div class="layer">
+                    <h3>Railway management App</h3>
+                    <p>blah blah blah vlaase sdg s s gsg sd sd gsd gsg sg sd fsws  dsdg</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- ...........contact................. -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>uf61021@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>01581-468777</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100075933993521"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/umar-faruk-0791a72ab/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Faruk982"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by Faruk <i class="fa-solid fa-heart-pulse"></i></p>
+    </div>
+ </div>
+    <script src="node.js"></script>
+
+</body>
+</html>
